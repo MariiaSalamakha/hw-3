@@ -1,0 +1,87 @@
+body {
+  margin: 0 0 50px 124px;
+  background-color: rgb(227, 235, 250);
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 50px;
+  color: #cc6aa6;
+  padding-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 3px solid white;
+  padding: 3px 5px;
+  text-align: center;
+  cursor: pointer;
+}
+td {
+  width: 190px;
+}
+
+img {
+  position: absolute;
+  margin: 100px 400px;
+}
+
+.info {
+  line-height: 1.8em;
+}
+input {
+  border-radius: 8px;
+  padding: 8px 20px;
+  border: 1px solid;
+  text-align: center;
+}
+select {
+  border-radius: 8px;
+  padding: 6px 70px;
+  border: 1px solid;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 200px;
+  font-size: 20px;
+  background: #cc6aa6;
+  color: white;
+  letter-spacing: 2px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: #48c0ec;
+}
+
+button:hover {
+  background-color: #48c0ec;
+}
+
+label {
+  cursor: pointer;
+}
+textarea {
+  border-radius: 10px;
+}
+
+::placeholder {
+  text-align: center;
+  padding: 8px;
+}

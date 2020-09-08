@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/png" href="/images/icon_3_red.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home Work 3</title>
+  </head>
+  <body>
+    <h1>Поняття Front-End. HTML</h1>
+    <h2>Особисті дані користувачів</h2>
+    <div id="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Телефон</th>
+            <th>Електронна адреса</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Давидяк</td>
+            <td>Соломія</td>
+            <td>+380957483265</td>
+            <td>dav.sol@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Коновалик</td>
+            <td>Христина</td>
+            <td>+380996643821</td>
+            <td>konovalyk@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Петришин</td>
+            <td>Віктор</td>
+            <td>+380678954763</td>
+            <td>viktor@ukr.net</td>
+          </tr>
+          <tr>
+            <td>Квітка</td>
+            <td>Андрій</td>
+            <td>+380500724856</td>
+            <td>kvitka14@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Сорока</td>
+            <td>Олена</td>
+            <td>+380675843245</td>
+            <td>soroka.olena@ukr.net</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <img src="/images/information.png" alt="different persons" width="800" />
+    </div>
+    <h2>Заповніть, будь ласка, форму</h2>
+
+    <div class="info">
+      <label for="name">Ваше ім'я</label>
+      <br />
+      <input
+        type="text"
+        name="text"
+        placeholder="Вкажіть ваше ім'я"
+        id="name"
+      />
+    </div>
+    <div class="info">
+      <label for="surname">Ваше прізвище</label>
+      <br />
+      <input
+        type="text"
+        name="text"
+        placeholder="Вкажіть ваше прізвище"
+        id="surname"
+      />
+    </div>
+    <h3>Виберіть вашу стать</h3>
+    <div class="info">
+      <input type="radio" name="sex" id="female" checked />
+      <label for="female">Жіноча</label>
+    </div>
+
+    <div class="info">
+      <input type="radio" name="sex" id="male" />
+      <label for="male">Чоловіча</label>
+    </div>
+
+    <h3>Задайте нам запитання</h3>
+    <textarea
+      name="question"
+      placeholder="Напишіть своє запитання"
+      cols="30"
+      rows="10"
+    ></textarea>
+    <h3>Виберіть ваше місто</h3>
+    <div>
+      <label for="sity-select">Оберіть місто : </label>
+      <br />
+      <select name="sities" id="sity-select">
+        <option value="Lviv">Львів</option>
+        <option value="Kyiv">Київ</option>
+        <option value="Kharkiv">Харків</option>
+        <option value="Odesa">Одеса</option>
+        <option value="Donetsk">Донецьк</option>
+        <option value="Rivne">Рівне</option>
+      </select>
+    </div>
+    <h3>Якими мовами ви володієте:</h3>
+    <div class="info">
+      <div>
+        <input type="checkbox" name="lang" id="ukr" checked />
+        <label for="ukr">Українська</label>
+      </div>
+      <div>
+        <input type="checkbox" name="lang" id="rus" />
+        <label for="rus">Російська</label>
+      </div>
+      <div>
+        <input type="checkbox" name="lang" id="eng" />
+        <label for="eng">Англійська</label>
+      </div>
+      <div class="submit-button">
+        <button>Надіслати</button>
+      </div>
+    </div>
+  </body>
+</html>
